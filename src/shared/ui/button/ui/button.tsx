@@ -1,5 +1,7 @@
-import { ReactNode } from "react";
 import { LucideIcon } from "lucide-react";
+
+import { ReactNode } from "react";
+import { clsx } from "clsx";
 
 interface Props {
 	id?: string;
@@ -13,7 +15,10 @@ const Button = ({ id = "", icon: Icon, iconPosition, className = "", children }:
 	return (
 		<button
 			id={id}
-			className={`group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black ${className}`}>
+			className={clsx(
+				"group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black",
+				className,
+			)}>
 			{Icon && iconPosition === "left" && <Icon className="mr-2" />}
 			<span className={"relative inline-flex overflow-hidden font-general text-xs uppercase"}>
 				<div>{children}</div>

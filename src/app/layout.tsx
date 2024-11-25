@@ -1,8 +1,10 @@
 import "./globals.scss";
-import { ReactNode } from "react";
+
 import type { Metadata } from "next";
-import Header from "@/shared/components/header";
-import Footer from "@/shared/components/footer";
+import { ReactNode } from "react";
+
+import Header from "@/widgets/header";
+import Footer from "@/widgets/footer";
 
 export const metadata: Metadata = {
 	title: "Dream Anime",
@@ -15,7 +17,9 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
 		<html lang={"en"}>
 			<body>
 				<Header />
-				<main className={"relative min-h-screen w-screen overflow-x-hidden"}>{children}</main>
+				<main className={"relative min-h-screen w-screen overflow-x-hidden"}>
+					{children}
+				</main>
 				<Footer />
 			</body>
 		</html>
