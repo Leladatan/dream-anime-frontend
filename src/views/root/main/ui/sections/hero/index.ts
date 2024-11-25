@@ -1,1 +1,1 @@
-export {default} from "./ui/hero-section";
+export { default } from "./ui/hero-section";
