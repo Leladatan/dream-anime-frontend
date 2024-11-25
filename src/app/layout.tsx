@@ -1,8 +1,8 @@
 import "./globals.scss";
 import { ReactNode } from "react";
 import type { Metadata } from "next";
-import Header from "@/shared/header";
-import Footer from "@/shared/footer";
+import Header from "@/shared/components/header";
+import Footer from "@/shared/components/footer";
 
 export const metadata: Metadata = {
 	title: "Dream Anime",

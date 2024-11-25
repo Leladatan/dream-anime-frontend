@@ -4,6 +4,7 @@ const MainPage = () => {
   return (
     <>
       <HeroSection/>
+        <section className={"min-h-screen"}/>
     </>
   );
 };
