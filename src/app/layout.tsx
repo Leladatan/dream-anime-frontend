@@ -17,9 +17,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
 		<html lang={"en"}>
 			<body>
 				<Header />
-				<main className={"relative min-h-screen w-screen overflow-x-hidden"}>
-					{children}
-				</main>
+				<main className={"relative min-h-screen w-screen overflow-x-hidden"}>{children}</main>
 				<Footer />
 			</body>
 		</html>
