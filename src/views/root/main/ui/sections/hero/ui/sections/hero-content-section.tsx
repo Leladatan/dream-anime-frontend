@@ -22,7 +22,7 @@ const HeroContentSection = () => {
 						id={"watch-trailer"}
 						icon={ArrowBigUpDashIcon}
 						iconPosition={"left"}
-						className={"!bg-yellow-300 flex-center gap-1 font-bold"}>
+						className={"!bg-yellow-300 flex-center gap-1 font-bold hover:!bg-yellow-100 transition-all duration-200 ease-in"}>
 						Watch Trailer
 					</Button>
 				</div>
