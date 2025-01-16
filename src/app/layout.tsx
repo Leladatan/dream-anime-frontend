@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
 	return (
 		<html lang={"en"}>
-			<body>
+			<body className={"relative"}>
 				<Header />
 				<main className={"relative min-h-screen w-screen overflow-x-hidden"}>{children}</main>
 				<Footer />
