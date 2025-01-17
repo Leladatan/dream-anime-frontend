@@ -31,16 +31,15 @@ const AboutBannerImageSection = () => {
 	return (
 		<div
 			id={"clip"}
-			className={"h-dvh w-screen "}>
+			className={"h-dvh w-screen overflow-hidden"}>
 			<div className={"mask-clip-path about-image"}>
-				<div className="relative h-full w-full">
+				<div className={"relative size-full"}>
 					<Image
 						src={"/images/about.webp"}
 						alt={"About banner image"}
 						layout={"fill"}
-						sizes={"(max-width: 768px) 100vw, (min-width: 769px) 50vw"}
 						priority={true}
-						className={"absolute left-0 top-0 size-full object-cover"}
+						className={"object-cover"}
 					/>
 				</div>
 			</div>

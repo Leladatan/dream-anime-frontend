@@ -98,8 +98,8 @@ const Header = () => {
 						</div>
 
 						<button
-							className={"ml-10 flex items-center space-x-0.5"}
-							onClick={handlerAudioIndicator}>
+							onClick={handlerAudioIndicator}
+							className={"ml-10 flex items-center space-x-0.5 p-2"}>
 							<audio
 								ref={audioElementRef}
 								src={"/audio/loop.mp3"}

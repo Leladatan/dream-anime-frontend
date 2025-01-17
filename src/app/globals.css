@@ -43,6 +43,7 @@ body {
 		@apply flex justify-center items-center;
 	}
 	.mask-clip-path {
+		@apply px-2;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 	}
 	.special-font b {
