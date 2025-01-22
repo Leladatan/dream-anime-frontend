@@ -71,8 +71,8 @@ const StorySection = () => {
 									onMouseUp={handleMouseLeave}
 									onMouseEnter={handleMouseLeave}
 									onMouseMove={handleMouseMove}
-									src="/images/entrance.webp"
-									alt="etrance"
+									src={"/images/entrance.webp"}
+									alt={"etrance"}
                                     layout={"fill"}
 									className={"object-contain"}
 								/>
