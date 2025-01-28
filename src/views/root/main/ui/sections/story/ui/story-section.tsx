@@ -90,7 +90,7 @@ const StorySection = () => {
 
 						<Button
 							id={"realm-btn"}
-							className={"mt-5"}>
+							className={"mt-5 transition-all duration-200 ease-in hover:bg-neutral-200"}>
 							discover prologue
 						</Button>
 					</div>

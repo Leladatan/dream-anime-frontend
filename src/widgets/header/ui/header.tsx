@@ -66,7 +66,7 @@ const Header = () => {
 	return (
 		<header
 			ref={headerRef}
-			className={"fixed inset-x-0 z-50 h-16 border-none mt-4 transition-all duration-700 sm:inset-x-6"}>
+			className={"fixed inset-x-0 z-50 h-16 border-none mt-4 transition-all duration-700 sm:inset-x-6 mx-2"}>
 			<div className={"absolute top-1/2 w-full -translate-y-1/2"}>
 				<nav className={"flex size-full items-center justify-between p-4"}>
 					<div className={"flex items-center gap-7"}>
